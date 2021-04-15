@@ -57,5 +57,7 @@ struct WindowInfo
 
 };
 
+#define DEVICE GEngine->GetDevice()->GetDevice()
+#define CMD_LIST GEngine->GetCmdQueue()->GetCmdList()
 // 전방 선언
 extern unique_ptr<class Engine> GEngine;
